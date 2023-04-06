@@ -1,0 +1,96 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "carNumber",
+                "type": "string"
+            }
+        ],
+        "name": "getCarDetails",
+        "outputs": [
+            {
+                "internalType": "string",
+                "name": "nameOfCar",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "color",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "year",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "carNumber",
+                "type": "string"
+            }
+        ],
+        "name": "getCarOwner",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "owner",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "carNumber",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "nameOfCar",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "color",
+                "type": "string"
+            },
+            {
+                "internalType": "uint256",
+                "name": "year",
+                "type": "uint256"
+            }
+        ],
+        "name": "storeCarDetails",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "carNumber",
+                "type": "string"
+            },
+            {
+                "internalType": "address",
+                "name": "newOwner",
+                "type": "address"
+            }
+        ],
+        "name": "transferOwnership",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
